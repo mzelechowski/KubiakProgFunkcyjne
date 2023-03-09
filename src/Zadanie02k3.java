@@ -13,7 +13,12 @@ public class Zadanie02k3 {
     }
 
     public static void wypiszFOREACH(List list){
-            list.stream().forEach(l-> System.out.print(l+" , "));
+            list.forEach(l-> {
+                if((list.size()-1)!= list.indexOf(l))
+                    System.out.print(l+ " , ");
+                else
+                    System.out.print(l);
+                });
     }
     public static void main(String[] args) {
         ArrayList list = new ArrayList();
@@ -30,6 +35,7 @@ public class Zadanie02k3 {
         list.add(10);
         System.out.println();
         Collections.sort(list);
+        System.out.println("Zamieniony drugi element listy na 10 i ponownie posortowane.");
         Zadanie02k3.wypiszFOREACH(list);
 
     }
