@@ -1,7 +1,6 @@
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
-import java.util.stream.Collectors;
 
 public class Zadanie02k3 {
     public static void wpisz(List list){
@@ -11,6 +10,10 @@ public class Zadanie02k3 {
             else
                 System.out.print(list.get(i));
         }
+    }
+
+    public static void wypiszFOREACH(List list){
+            list.stream().forEach(l-> System.out.print(l+" , "));
     }
     public static void main(String[] args) {
         ArrayList list = new ArrayList();
@@ -27,7 +30,7 @@ public class Zadanie02k3 {
         list.add(10);
         System.out.println();
         Collections.sort(list);
-        Zadanie02k3.wpisz(list);
+        Zadanie02k3.wypiszFOREACH(list);
 
     }
 }
