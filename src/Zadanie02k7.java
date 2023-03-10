@@ -21,7 +21,6 @@ public class Zadanie02k7 {
         }
         System.out.println();
 
-
         list.forEach(l-> System.out.print(l+","));
         Collections.reverse(list);
         System.out.println();
