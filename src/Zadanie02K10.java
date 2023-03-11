@@ -46,8 +46,5 @@ public class Zadanie02K10 {
         System.out.println("\nRetainAll - po zachowaniu wspolnych elementow zbiorów, zbior1 wyglada: " +zbior1+".");
         System.out.println("Liczba elementow w zbiorze1 wynosi: "+zbior1.size());
 
-
-
-
     }
 }
