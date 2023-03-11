@@ -1,8 +1,5 @@
-import java.lang.reflect.Array;
-import java.util.Arrays;
 import java.util.Set;
 import java.util.TreeSet;
-import java.util.stream.Collectors;
 
 public class Zadanie02K11 {
     public static void main(String[] args) {
@@ -19,6 +16,9 @@ public class Zadanie02K11 {
         zbior1.add(35);
         zbior1.add(3);
         System.out.println(zbior1);
+        for(var z: zbior1){   // var Java 9
+            System.out.println(z);
+        }
         System.out.println("Liczba elementow w zbiorze wynosi: "+zbior1.size());
         zbior1.remove(2);
         System.out.println("Liczba elementow w zbiorze wynosi: "+zbior1.size());
