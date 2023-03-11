@@ -3,7 +3,7 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-public class Zasanie03K7 {
+public class Zasanie03K7{
 
     public static void main(String[] args) {
         /*napisz sortowanie listy imion w postaci referncji do metody*/
@@ -12,8 +12,7 @@ public class Zasanie03K7 {
                 "Grazyna", "Beata", "Katarzyna", "Slawomir");
         System.out.println("Lista przed sortowanie");
         System.out.println(names);
-
-        /*jak stosując referencje do metody zrobic sortowanei odwrtone!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+        // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! jak zrobić sortowanie odwrotne przy pomocy referencji do metody
         System.out.println("Lista po sortowaniu");
         Collections.sort(names, String::compareTo);
         System.out.println(names);
