@@ -13,8 +13,9 @@ public class Zadanie04K2 {
         return zwrot;
     }
     public static void main(String[] args) {
-    /*Napisz program, który znajduje 10 pierwszych liczb trójkątnych i wyświetla
-    je na ekarnie.
+    /*
+    Napisz program, który znajduje 10 pierwszych liczb trójkątnych
+    i wyświetla je na ekarnie.
      */
         int licza=0;
         BufferedReader buffer= new BufferedReader(new InputStreamReader(System.in));
