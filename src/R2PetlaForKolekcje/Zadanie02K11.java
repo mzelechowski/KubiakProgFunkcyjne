@@ -1,3 +1,5 @@
+package R2PetlaForKolekcje;
+
 import java.util.Set;
 import java.util.TreeSet;
 

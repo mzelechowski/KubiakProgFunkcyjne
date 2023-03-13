@@ -1,3 +1,5 @@
+package R2PetlaForKolekcje;
+
 import java.util.Vector;
 
 public class Zadanie02K14 {

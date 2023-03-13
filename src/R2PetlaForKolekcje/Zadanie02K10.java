@@ -1,3 +1,5 @@
+package R2PetlaForKolekcje;
+
 import java.util.HashSet;
 import java.util.Set;
 

@@ -1,3 +1,5 @@
+package R2PetlaForKolekcje;
+
 import java.util.Arrays;
 
 public class Zadanie02k1 {

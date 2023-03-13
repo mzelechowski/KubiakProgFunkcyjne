@@ -1,3 +1,5 @@
+package R2PetlaForKolekcje;
+
 import java.util.HashMap;
 import java.util.Map;
 

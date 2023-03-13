@@ -1,3 +1,5 @@
+package R2PetlaForKolekcje;
+
 import java.util.Stack;
 
 public class Zadanie02K15 {
