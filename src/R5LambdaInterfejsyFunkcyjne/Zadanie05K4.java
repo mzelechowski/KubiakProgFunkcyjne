@@ -1,6 +1,5 @@
 package R5LambdaInterfejsyFunkcyjne;
 
-import javax.script.ScriptContext;
 import java.util.Scanner;
 import java.util.function.Function;
 
